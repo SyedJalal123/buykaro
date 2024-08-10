@@ -1,0 +1,69 @@
+
+@media only screen and (min-width: 991px) { /* PC */ 
+    .main {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+    .tab-content {
+        padding: 1.5rem !important;
+    }
+}
+@media only screen and (max-width: 991px) { /* Phones */ 
+    .main {
+        padding-right: .8rem !important;
+        padding-left: .8rem !important;
+    }
+    .thumbnail-prnt {
+        display: none;
+    }
+    .tab-content {
+        padding: .5rem!important;
+    }
+}
+
+section * {
+    font-family: Poppins !important;
+}
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+.thumbnails {
+    display: flex;
+    margin: 1rem auto 0;
+    padding: 0;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.thumbnail {
+    /* width: 70px;
+    height: 70px; */
+    overflow: hidden;
+    list-style: none;
+    margin: 0.2rem 0.2rem;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.thumbnail.is-active {
+    opacity: 1;
+}
+.thumbnail img {
+    width: 100%;
+    /* height: 112px; */
+    opacity: 1;
+}
+.product-model-title {
+    font-size: 20px;
+}
+#buynow_modal, #quick_buynow_modal, #buynow_view_modal {
+    z-index: 1061;
+}
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+.product-box .modal-buttons {
+    padding: 0px !important;
+}
